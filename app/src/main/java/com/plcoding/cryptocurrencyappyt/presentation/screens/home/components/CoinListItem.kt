@@ -26,7 +26,7 @@ fun CoinListItem(
         modifier = Modifier
             .fillMaxWidth()
             .clickable {
-                onItemClick
+                onItemClick(coin)
             }
             .padding(20.dp),
         horizontalArrangement = Arrangement.SpaceBetween
